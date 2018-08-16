@@ -1,9 +1,9 @@
 #!bin/bash
 echo hello
 #ls
-echo "what is your name"
+echo "What is your name?"
 read NAME
-echo  "$NAME is awesome!!!"
+echo  "$NAME IS AWESOME!!!"
  mkdir $NAME
 cd $NAME
 touch $NAME
