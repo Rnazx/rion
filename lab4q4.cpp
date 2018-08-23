@@ -14,6 +14,6 @@ cin>>a;
 cout<<" Enter the second angle in degrees "<<endl;
 cin>>b;
 c=180-a-b;
-cout<<" The third angle of the triangle is "<<c<<endl;//display the output
+cout<<" The third angle of the triangle is "<<c<<" degrees "<<endl;//display the output
 return 0;
 }
