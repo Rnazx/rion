@@ -1,7 +1,13 @@
-#include <iostream>                                                                                                 //including library
+//include the main function
+#include<iostream>
+#include<cstring>
 using namespace std;
-int main()
-{
+int main(){
+string name;
+
+cout<<"What is your name? "<<endl;
+getline(cin,name);
+cout<<" Hey!!!"<<name<<" Have a good day!!?"<<endl;
 	float celsius,fahrenheit;                                                                                  //defining variables
 	cout <<"Write your temperature in celsius  ";                          // assigning value of celsius for conversion
 	cin >> celsius;
