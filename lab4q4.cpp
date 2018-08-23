@@ -8,12 +8,12 @@ string name;
 cout<<"What is your name? "<<endl;
 getline(cin,name);
 cout<<" Hey!!!"<<name<<" WADUP!!?"<<endl;
-float a,b,c;
+float a,b,c;//define the variables
 cout<<" Enter the first angle in degrees "<<endl;
 cin>>a;
 cout<<" Enter the second angle in degrees "<<endl;
 cin>>b;
 c=180-a-b;
-cout<<" The third angle of the triangle is "<<c<<endl;
+cout<<" The third angle of the triangle is "<<c<<endl;//display the output
 return 0;
 }
