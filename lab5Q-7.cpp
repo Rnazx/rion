@@ -1,15 +1,15 @@
 #include <iostream>                                  
-using namespace std;                           //adding library
+using namespace std;                           //to check whether a number is a palindrome or not
 int main()
 {
-     int n, num, digit, rev = 0;                    //declaring variables
+     int n, num, d, rev = 0;                    //declare variables
      cout << "Enter a positive number: ";
      cin >> num;
      n = num;
      do
      {
-         digit = num % 10;                          //conditions
-         rev =(rev*10)+ digit;
+         d = num % 10;                          //conditions
+         rev =(rev*10)+ d;
          num =num/10;
      } while(num != 0);
      cout << " The reverse of the number is: "<<rev<<endl;
@@ -17,5 +17,5 @@ int main()
      cout <<"The number is a palindrome";
      else
      cout <<"The number is not a palindrome";
-    return 0;                        //checks code is correct and return value 0
+    return 0;                        //return value 0
 }
