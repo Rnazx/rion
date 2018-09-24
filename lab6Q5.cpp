@@ -30,13 +30,13 @@ int main(){
 	int x,y,operation;
 		cout<< "Let the two numbers be ";    //Ask the user for two numbers.
 		cin >>x >>y;
-        cout<<"Which operation do you want to perform?"<<endl            //Ask the user for the operation of choice
+        cout<<"Which operation do you want to perform?"<<endl            //Ask the user for the operation of choice.
 		<<"For sum type 1"<<endl
 		<<"For maximum between two numbers type 2" <<endl
 		<<"For minimum between two numbers type 3"<<endl;
 		cin>>operation;
 		cout<<"The value of opertation choosen on the numbers " 		<<x<< " and " <<y<<" is "<<          //Tell user the desired value
-        func(x,y,operation) <<endl;             //Call function for numbers as arguments
+        func(x,y,operation) <<endl;             //Call function for numbers as arguments.
 		
 return 0;
 }
