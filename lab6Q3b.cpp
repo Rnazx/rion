@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;                            //Including Library
+using namespace std;                            //Including Library.
 
 	void funcR(int a, int b ,int c){                 //Functions with parameters and reference parameter.
 		if(a>b)
