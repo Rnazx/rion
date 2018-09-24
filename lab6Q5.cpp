@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;             //Including library
+using namespace std;             //Including library.
 
 	int func(int a, int b, int&c){         //Write a function that has two parameters and a reference.
 		if(c==1){
@@ -25,7 +25,7 @@ using namespace std;             //Including library
 		}
 	}
 
-//Driver function
+//Driver function.
 int main(){
 	int x,y,operation;
 		cout<< "Let the two numbers be ";    //Ask the user for two numbers.
