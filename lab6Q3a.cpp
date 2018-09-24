@@ -18,7 +18,7 @@ int main(){
 		cout<< "Let the two numbers be ";                  //Ask the user for two numbers.
 		cin >>c >>d ;
 		cout<<"The larger of the two numbers "<<c<< " and " <<d<<" is "<<                       //Tell user the bigger number.
-		 func(c,d) <<endl;                               //Call function for numbers as arguments
+		 func(c,d) <<endl;                               //Call function for numbers as arguments.
 		
 return 0;
 }
