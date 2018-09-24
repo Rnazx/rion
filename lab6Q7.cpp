@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;              //Including library
+using namespace std;              //Including library.
 
 /*Write a user-defined function toUpper() that returns the uppercase of the inputChar received. Use call-by-value.*/
 	char toUpper (char x){
@@ -21,7 +21,7 @@ int main (){
 	cout<<"Type a letter "<< endl;
  	cin>>input;
 		if (int(input)>=65 && int(input)<=90){
-			char a= toLower(input); 
+			char a=toLower(input); 
 				cout<<"This is an upper case letter"<< endl;
 				cout<<"This letter in lower case is: "<<a<<endl;
 		}
