@@ -1,5 +1,5 @@
  #include<iostream> 
-using namespace std;      //Including library
+using namespace std;      //Including library.
 
 	int func(int a, int b){           // function that has two parameters.
 		if (a<b){
