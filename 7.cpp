@@ -5,7 +5,7 @@ using namespace std;
 		int pow(int b,int p)
 		{
 		
-			if(p>1){
+			if(p>=1){
 			return b*pow(b,p-1);//write the recurring relation
 			}
 			else  {
@@ -20,7 +20,7 @@ using namespace std;
 		cout<<" enter power\n";
 		cin>>power;
 		num=pow(base,power);
-		cout<<" the number is "<<num;
+		cout<<" the number is \n"<<num;
 		return 0;
 		}
 
